@@ -1,5 +1,10 @@
 name: Hugo Build and Deploy
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: ["master"]
