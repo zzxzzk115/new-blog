@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Kexuan Zhang&#39;s Blog</title>
+    <link>https://zzxzzk115.github.io/tags/</link>
+    <description>Recent content in Tags on Kexuan Zhang&#39;s Blog</description>
+    <image>
+      <title>Kexuan Zhang&#39;s Blog</title>
+      <url>https://zzxzzk115.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zzxzzk115.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 04 Nov 2025 21:04:32 +0000</lastBuildDate>
+    <atom:link href="https://zzxzzk115.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://zzxzzk115.github.io/tags/hugo/</link>
+      <pubDate>Tue, 04 Nov 2025 21:04:32 +0000</pubDate>
+      <guid>https://zzxzzk115.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://zzxzzk115.github.io/tags/test/</link>
+      <pubDate>Tue, 04 Nov 2025 19:31:06 +0000</pubDate>
+      <guid>https://zzxzzk115.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
