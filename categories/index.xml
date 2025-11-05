@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Kexuan Zhang&#39;s Blog</title>
-    <link>https://zzxzzk115.github.io/categories/</link>
+    <link>https://zzxzzk115.github.io/new-blog/categories/</link>
     <description>Recent content in Categories on Kexuan Zhang&#39;s Blog</description>
     <image>
       <title>Kexuan Zhang&#39;s Blog</title>
-      <url>https://zzxzzk115.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://zzxzzk115.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://zzxzzk115.github.io/new-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zzxzzk115.github.io/new-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 04 Nov 2025 21:04:32 +0000</lastBuildDate>
-    <atom:link href="https://zzxzzk115.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://zzxzzk115.github.io/new-blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips</title>
-      <link>https://zzxzzk115.github.io/categories/tips/</link>
+      <link>https://zzxzzk115.github.io/new-blog/categories/tips/</link>
       <pubDate>Tue, 04 Nov 2025 21:04:32 +0000</pubDate>
-      <guid>https://zzxzzk115.github.io/categories/tips/</guid>
+      <guid>https://zzxzzk115.github.io/new-blog/categories/tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Test</title>
-      <link>https://zzxzzk115.github.io/categories/test/</link>
+      <link>https://zzxzzk115.github.io/new-blog/categories/test/</link>
       <pubDate>Tue, 04 Nov 2025 19:31:06 +0000</pubDate>
-      <guid>https://zzxzzk115.github.io/categories/test/</guid>
+      <guid>https://zzxzzk115.github.io/new-blog/categories/test/</guid>
       <description></description>
     </item>
   </channel>
