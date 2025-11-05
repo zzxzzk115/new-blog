@@ -79,7 +79,13 @@ int main() {
 
 This is an image from `/static/images/`
 
-{{< figure src="/images/test.png" title="This is a test image" >}}
+<!-- Will add prefix /new-blog/ -->
+{{< figure src="/new-blog/images/test.png" title="This is a test image" >}}
+
+This is an image in the same directory as this markdown source file.
+
+<!-- Relative Path -->
+{{< figure src="meshlets.png" title="This is a test image" >}}
 
 ## \<iframe\>Test
 
