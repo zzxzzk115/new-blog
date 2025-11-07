@@ -6,6 +6,7 @@ categories: ["Test"]
 summary: Essential test for blog post writting.
 cover:
   image: meshlets.png
+autonumbering: true
 ---
 
 ## Mathjax Test

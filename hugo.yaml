@@ -49,6 +49,8 @@ params:
 
   fancybox: true # to enable FancyBox for image viewing
 
+  progressbar: true # to enable progress bar on top
+
   assets:
     disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
