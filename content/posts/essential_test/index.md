@@ -15,6 +15,8 @@ autonumbering: true
 
 This is an inline \(a^*=x-b^*\) equation.
 
+### Block Equations
+
 These are block equations:
 
 \[a^*=x-b^*\]
@@ -40,11 +42,8 @@ $$
 The Rendering Equation:
 
 \[
-L*o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) +
-\int*{\Omega} f_r(\mathbf{x}, \omega_i, \omega_o)
-\, L_i(\mathbf{x}, \omega_i)
-\, (\mathbf{n} \cdot \omega_i)
-\, d\omega_i
+L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + 
+\int_{\Omega} f_r(\mathbf{x}, \omega_i, \omega_o) \, L_i(\mathbf{x}, \omega_i) \, (\omega_i \cdot \mathbf{n}) \, d\omega_i
 \]
 
 ## Code Test
