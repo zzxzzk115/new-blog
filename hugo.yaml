@@ -45,7 +45,9 @@ params:
   showtoc: true
   tocopen: true
 
-  math: true
+  math: true # to enable MathJax
+
+  fancybox: true # to enable FancyBox for image viewing
 
   assets:
     disableHLJS: true # to disable highlight.js
