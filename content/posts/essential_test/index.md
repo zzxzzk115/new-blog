@@ -95,3 +95,21 @@ This is an image in the same directory as this markdown source file.
   height="1600"
   frameborder="0">
 </iframe>
+
+
+## Alert
+
+> [!CAUTION]
+> Content
+
+> [!IMPORTANT]
+> Content
+
+> [!NOTE]
+> Content
+
+> [!TIP]
+> Content
+
+> [!WARNING]
+> Content
