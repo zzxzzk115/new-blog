@@ -1,12 +1,14 @@
 ---
 date: '2025-11-04T21:04:32Z'
-title: 'Enable Mathjax for Hugo'
+title: 'Hugo PaperMod Customization'
 tags: ["Hugo"]
 categories: ["Tips"]
-summary: How to enable Mathjax for Hugo (PaperMod)? Here are the instructions.
+summary: How to customize Hugo with theme PaperMod? Here are the instructions.
 ---
 
-## Step 1
+## MathJax
+
+### Step 1
 
 Create `layouts/partials/extend_head.html`:
 
@@ -30,7 +32,7 @@ Create `layouts/partials/extend_head.html`:
 {{ end }}
 ```
 
-## Step 2
+### Step 2
 
 Create `layouts/_default/baseof.html`:
 
@@ -38,7 +40,7 @@ Create `layouts/_default/baseof.html`:
 {{ partial "extend-head.html" . }}
 ```
 
-## Step 3
+### Step 3
 
 Edit `hugo.yaml`, add `markup->goldmark` section and enable math:
 
@@ -64,4 +66,22 @@ markup:
 
 params:
   math: true
+```
+
+## Favicon
+
+https://favicon.io/emoji-favicons/
+
+Put images into `static/images/favicon/`
+
+Edit `hugo.yaml`:
+
+```yaml
+params:
+  assets:
+      favicon: "images/favicon/favicon.ico"
+      favicon16x16: "images/favicon/favicon-16x16.png"
+      favicon32x32: "images/favicon/favicon-32x32.png"
+      apple_touch_icon: "images/favicon/apple-touch-icon.png"
+      # safari_pinned_tab: "images/favicon/safari-pinned-tab.svg"
 ```
