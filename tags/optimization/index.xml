@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Optimization on Kexuan Zhang&#39;s Blog</title>
+    <link>https://zzxzzk115.github.io/new-blog/tags/optimization/</link>
+    <description>Recent content in Optimization on Kexuan Zhang&#39;s Blog</description>
+    <image>
+      <title>Kexuan Zhang&#39;s Blog</title>
+      <url>https://zzxzzk115.github.io/new-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zzxzzk115.github.io/new-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 08 Nov 2025 16:14:06 +0000</lastBuildDate>
+    <atom:link href="https://zzxzzk115.github.io/new-blog/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Depth Pre-Pass and Early-Z</title>
+      <link>https://zzxzzk115.github.io/new-blog/posts/depth-pre-pass-and-early-z/</link>
+      <pubDate>Sat, 08 Nov 2025 16:14:06 +0000</pubDate>
+      <guid>https://zzxzzk115.github.io/new-blog/posts/depth-pre-pass-and-early-z/</guid>
+      <description>&lt;p&gt;We may have heard of these keywords: &lt;strong&gt;Depth Pre-Pass&lt;/strong&gt; and &lt;strong&gt;Early-Z&lt;/strong&gt;. But what situations do we actually need them for?&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;overdraw&#34;&gt;Overdraw&lt;/h2&gt;
+&lt;p&gt;When rendering a complex 3D scene, multiple fragments may map to the same pixel on the screen — for example, when one object is in front of another. The GPU will still execute the fragment shader for each layer of geometry, even though only the nearest fragment is visible in the final image.&lt;br&gt;
+This redundant work is called &lt;strong&gt;overdraw&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
