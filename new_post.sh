@@ -1,6 +1,6 @@
 #!/bin/bash
 # new-hugo-post.sh
-# Description: Interactive script to create a new Hugo blog post
+# Description: Interactive script to create a new Hugo blog post with optional Page Bundle support
 
 echo "=== Hugo New Post Creator ==="
 echo
@@ -11,12 +11,20 @@ read -p "Enter the post title (e.g., My First Blog Post): " title
 # Generate slug (lowercase and replace spaces with hyphens)
 slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g')
 
+# Ask whether to create a folder (Page Bundle)
+read -p "Create as a folder with index.md (page bundle)? (y/n): " pageBundle
+
 # Get category and tags
 read -p "Enter category (optional): " category
 read -p "Enter tags (comma-separated, optional): " tags
 
-# Define target file path
-filePath="content/posts/${slug}.md"
+# Determine file path
+if [[ "$pageBundle" == "y" ]]; then
+  filePath="content/posts/${slug}/index.md"
+else
+  filePath="content/posts/${slug}.md"
+fi
+
 echo
 echo "File to be created: $filePath"
 
@@ -28,7 +36,11 @@ if [[ "$confirm" != "y" ]]; then
 fi
 
 # Run Hugo command
-hugo new "posts/${slug}.md"
+if [[ "$pageBundle" == "y" ]]; then
+  hugo new "posts/${slug}/index.md"
+else
+  hugo new "posts/${slug}.md"
+fi
 
 # Write front matter if file exists
 if [[ -f "$filePath" ]]; then
