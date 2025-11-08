@@ -3,6 +3,8 @@ title: "Depth Pre-Pass and Early-Z"
 date: 2025-11-08T16:14:06+00:00
 categories: [Graphics]
 tags: [Optimization, Render-Path, Depth Pre-Pass, Early-Z]
+cover:
+  image: cover.png
 ---
 
 We may have heard of these keywords: **Depth Pre-Pass** and **Early-Z**. But what situations do we actually need them for?
