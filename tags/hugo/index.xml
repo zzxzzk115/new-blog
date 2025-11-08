@@ -21,11 +21,11 @@
       <description>Why Hugo? Why not VuePress / Hexo?</description>
     </item>
     <item>
-      <title>Enable Mathjax for Hugo</title>
-      <link>https://zzxzzk115.github.io/new-blog/posts/hugo_math/</link>
+      <title>Hugo PaperMod Customization</title>
+      <link>https://zzxzzk115.github.io/new-blog/posts/hugo_confiig/</link>
       <pubDate>Tue, 04 Nov 2025 21:04:32 +0000</pubDate>
-      <guid>https://zzxzzk115.github.io/new-blog/posts/hugo_math/</guid>
-      <description>How to enable Mathjax for Hugo (PaperMod)? Here are the instructions.</description>
+      <guid>https://zzxzzk115.github.io/new-blog/posts/hugo_confiig/</guid>
+      <description>How to customize Hugo with theme PaperMod? Here are the instructions.</description>
     </item>
   </channel>
 </rss>
