@@ -56,6 +56,8 @@ The **Depth Pre-Pass** (also known as **Z-Pre-Pass**) is an explicit two-pass re
 Since the depth buffer now contains the nearest surfaces, most fragments that would be hidden are immediately rejected in the second pass.  
 This ensures that the heavy fragment shaders run **only on visible pixels**.
 
+Depending on which render path you are using, the second pass could be a G-buffer pass, a V-Buffer pass, or a lighting pass.
+
 > [!NOTE]
 > **Why render in front-to-back order?**  
 >
