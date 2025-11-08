@@ -96,7 +96,7 @@ Understanding how and when to leverage these can make a big difference in the pe
 ## How did libvultra integrate them
 
 - Sort all opaque geometries from front to back
-- Depth Pre-Pass
+- Depth Pre-Pass: Draw all sorted opaque geometries, only write depth values.
 - G-Buffer Pass: 
   - Draw all sorted opaque geometries with Early-Z enabled, depth test only, no depth write.
   - Draw other geometries with Early-Z disabled, depth test + depth write.
