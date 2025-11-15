@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Nov 2025 16:14:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 14:32:35 +0000</lastBuildDate>
     <atom:link href="https://zzxzzk115.github.io/new-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Considering Transfering to Nvidia Render Interface (NRI)</title>
+      <link>https://zzxzzk115.github.io/new-blog/posts/considering-transfering-to-nvidia-render-interface-nri/</link>
+      <pubDate>Sat, 15 Nov 2025 14:32:35 +0000</pubDate>
+      <guid>https://zzxzzk115.github.io/new-blog/posts/considering-transfering-to-nvidia-render-interface-nri/</guid>
+      <description>&lt;p&gt;I recently found NRI and it’s really great. Unlike NVRHI, NRI has a cleaner design and modern Vulkan/DX12-ish low-level APIs. It also supports many modern features with official support, such as DLSS. As a PhD student specialising in VR &amp;amp; HPG, NRI seems to be the best RHI for my needs.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;nri&#34;&gt;NRI&lt;/h2&gt;
+&lt;p&gt;GitHub link: &lt;a href=&#34;https://github.com/NVIDIA-RTX/NRI&#34;&gt;https://github.com/NVIDIA-RTX/NRI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;NRI&lt;/em&gt; is a modular, extensible, low-level abstract rendering interface that was designed to support all low-level features of D3D12 and Vulkan GAPIs. At the same time, it aims to simplify usage and reduce the amount of code needed (especially compared with VK).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Depth Pre-Pass and Early-Z</title>
       <link>https://zzxzzk115.github.io/new-blog/posts/depth-pre-pass-and-early-z/</link>
