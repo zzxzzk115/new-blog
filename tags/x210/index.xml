@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>X210 on Kexuan Zhang&#39;s Blog</title>
+    <link>https://zzxzzk115.github.io/new-blog/tags/x210/</link>
+    <description>Recent content in X210 on Kexuan Zhang&#39;s Blog</description>
+    <image>
+      <title>Kexuan Zhang&#39;s Blog</title>
+      <url>https://zzxzzk115.github.io/new-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://zzxzzk115.github.io/new-blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Nov 2025 23:39:09 +0000</lastBuildDate>
+    <atom:link href="https://zzxzzk115.github.io/new-blog/tags/x210/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TrackPoint is Dead after Resuming?</title>
+      <link>https://zzxzzk115.github.io/new-blog/posts/trackpoint-is-dead-after-resuming/</link>
+      <pubDate>Tue, 18 Nov 2025 23:39:09 +0000</pubDate>
+      <guid>https://zzxzzk115.github.io/new-blog/posts/trackpoint-is-dead-after-resuming/</guid>
+      <description>&lt;p&gt;If you are using ThinkPad 51nb&amp;rsquo;s X210 with Arch Linux and Hyprland, you might have the problem that the TrackPoint is not working after resuming from sleeping.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;why-the-trackpoint-doesnt-work-after-resuming&#34;&gt;Why the TrackPoint doesn&amp;rsquo;t work after resuming&lt;/h2&gt;
+&lt;p&gt;After some research, default power settings will turn off the TrackPoint, and that will cause its odd behaviour.&lt;/p&gt;
+&lt;h2 id=&#34;disable-power-save-mode&#34;&gt;Disable power save mode&lt;/h2&gt;
+&lt;p&gt;To disable power save for the TrackPoint, you can use libinput and its settings:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

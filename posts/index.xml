@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Nov 2025 14:32:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 23:39:09 +0000</lastBuildDate>
     <atom:link href="https://zzxzzk115.github.io/new-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TrackPoint is Dead after Resuming?</title>
+      <link>https://zzxzzk115.github.io/new-blog/posts/trackpoint-is-dead-after-resuming/</link>
+      <pubDate>Tue, 18 Nov 2025 23:39:09 +0000</pubDate>
+      <guid>https://zzxzzk115.github.io/new-blog/posts/trackpoint-is-dead-after-resuming/</guid>
+      <description>&lt;p&gt;If you are using ThinkPad 51nb&amp;rsquo;s X210 with Arch Linux and Hyprland, you might have the problem that the TrackPoint is not working after resuming from sleeping.&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;why-the-trackpoint-doesnt-work-after-resuming&#34;&gt;Why the TrackPoint doesn&amp;rsquo;t work after resuming&lt;/h2&gt;
+&lt;p&gt;After some research, default power settings will turn off the TrackPoint, and that will cause its odd behaviour.&lt;/p&gt;
+&lt;h2 id=&#34;disable-power-save-mode&#34;&gt;Disable power save mode&lt;/h2&gt;
+&lt;p&gt;To disable power save for the TrackPoint, you can use libinput and its settings:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Considering Transfering to Nvidia Render Interface (NRI)</title>
       <link>https://zzxzzk115.github.io/new-blog/posts/considering-transfering-to-nvidia-render-interface-nri/</link>
