@@ -21,9 +21,20 @@
       <description>&lt;p&gt;If you are using ThinkPad 51nb&amp;rsquo;s X210 with Arch Linux and Hyprland, you might have the problem that the TrackPoint is not working after resuming from sleeping.&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;h2 id=&#34;why-the-trackpoint-doesnt-work-after-resuming&#34;&gt;Why the TrackPoint doesn&amp;rsquo;t work after resuming&lt;/h2&gt;
-&lt;p&gt;After some research, default power settings will turn off the TrackPoint, and that will cause its odd behaviour.&lt;/p&gt;
-&lt;h2 id=&#34;disable-power-save-mode&#34;&gt;Disable power save mode&lt;/h2&gt;
-&lt;p&gt;To disable power save for the TrackPoint, you can use libinput and its settings:&lt;/p&gt;</description>
+&lt;p&gt;It&amp;rsquo;s the firmware problem. The TrackPoint won&amp;rsquo;t properly &lt;em&gt;wake up&lt;/em&gt; from sleep mode.&lt;/p&gt;
+&lt;h2 id=&#34;workaround&#34;&gt;Workaround&lt;/h2&gt;
+&lt;p&gt;Temporally, you can use two lines of commands to restart the TrackPoint:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#bbc3d4;background-color:#242933;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#bbc3d4;background-color:#242933;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#5d616a&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#5d616a&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#bbc3d4;background-color:#242933;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo modprobe -r psmouse
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo modprobe psmouse resetafter&lt;span style=&#34;color:#5e81ac&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b48ead&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;If you don&amp;rsquo;t want to type those commands before closing the lid and after opening the lid, you can write a system daemon script:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Considering Transfering to Nvidia Render Interface (NRI)</title>
